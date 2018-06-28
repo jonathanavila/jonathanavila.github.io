@@ -1,51 +1,3 @@
-<head>
-<style>
-
-a:link {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-a:hover {
-  text-decoration: underline;
-
-  color: inherit;
-}
-
-a:active {
-  text-decoration: underline;
-
-  color: inherit;
-}
-
-
-a:visited {
-  text-decoration: none;
-
-  color: inherit;
-}
-
-#mainNav {
-  background: rgba(0,0,0,0.05);
-}
-
-#experience {
-  background-color: #808080;
-}
-
-
-#projects {
-  background-color: #808080;
-}
-
-
-header {
-  padding: 90px 10 30px 10;
-
-  background-color: #808080;
-}
-</style>
 </head>
 
 <!-- 
@@ -85,6 +37,8 @@ jonathanravila.com
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/script.js" defer></script>
+    <!-- bootstrap 4.0 -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
   <title>Jonathan Avila</title>
 
@@ -92,14 +46,17 @@ jonathanravila.com
 
 <body id="page-top">
 
+  <div id="colorbar"></div>
+
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top" id="mainNav">
     <div class="container">
+      <a class="navbar-brand ml-3" href="#">Jonathan Avila</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav d-none d-md-flex ml-auto mr-3">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education
               </a>
@@ -129,11 +86,6 @@ jonathanravila.com
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#organizations">
-                Organizations
-              </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="mailto:email@jonathanravila.com"><i class="far fa-envelope"></i></a>
           </li>
 
@@ -143,6 +95,7 @@ jonathanravila.com
           <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/jonathanravila/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           </li>
+        </ul>
 
 
         </ul>
@@ -150,65 +103,41 @@ jonathanravila.com
     </div>
   </nav>
 
-  <header class="text-white">
+  <header class="section-img" id = "head">
     <div class="container">
-      <div class="row">
-        <div id="intro-div-container" class="col-lg-7 container">
-          <div id="intro-div-text">
-            <h1>Hi, I'm Jonathan Avila,</h1>
-            <h2><em>An aspiring product manager!</em></h2>
-          </div>
-        </div>
-      </div>
+       <div class="overlay-nav m-auto md-flex flex-row flex-wrap">
+         <a href="#intro"><button class="btn m-2"><i class="fas fa-info-circle mr-2"></i>about</button></a>
+         <a href="#work"><button class="btn m-2"><i class="fas fa-briefcase mr-2"></i>Experience</button></a>
+         <a href="#creative"><button class="btn m-2"><i class="fas fa-folder mr-2"></i>School</button></a>
+       </div>
     </div>
   </header>
 
 
-
-
   <section id="education">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto div-section-title">
-          <h2>Education</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-7">
-          <h4>
-              <a href="https://www.upenn.edu/" target="_blank"> University
-                of Pennsylvania, School of Engineering
-              </a>
-            </h4>
-          <h5>
-              <a href="http://www.cis.upenn.edu/prospective-students/graduate/mcit.php"
-                  target="_blank"><em>Master of Computer and Information
-                  Technology (MCIT)</em>
-              </a>
-            </h5>
-          <ul>
-            <li>Accelerated computer science program
-              <li>Graduation: Fall 2018
-                <li>GPA: 3.87/4.00
-          </ul>
-          <p><br></p>
-          <h4><a href="http://www.upenn.edu/" target="_blank">University
-                of Pennsylvania, School of Arts and Sciences</a></h4>
-          <h5>
-              <a href="https://economics.sas.upenn.edu/"
-                  target="_blank"><em>Bachelor of Arts (BA)</em>
-              </a>
-            </h5>
-          <ul>
-            <li>Economics, Magna Cum Laude
-              <li>Minor in Cognitive Science
-                <li>Graduation: May 2018
-                  <li>GPA: 3.71/4.00
-          </ul>
-          <p><br></p>
-        </div>
-      </div>
+         <br><br><h1>Hi, I'm Jonathan.</h1>
+      <h4>In 687 characters, I'm a:</h4>
+            <ul>
+            <li>
+            Second year student in Penn's <a  class = "lonk" href="http://www.cis.upenn.edu/prospective-students/graduate/mcit.php"
+                  target="_blank">Master of Computer and Information Technology</a> program, who recent graduated with his <a href="https://economics.sas.upenn.edu/undergraduate" target="_blank">Bachelors in Economics</a></li>
+
+            <li>Technologist interested in applying data to understand human behavior at a market and individual level</li>
+
+            <li>Product Manager intern at <a class = "lonk" href="http://www.redfin.com/" target="_blank">Redfin</a>, a course developer for a new Economics <a  class = "lonk" href="http://ditraglia.com/econ224/" target="_blank">applied data analysis course</a> and a computer science teaching assistant</li>
+            <li><a href="https://www.hsf.net/about-hsf" target="_blank">
+                    Hispanic Scholarship Fund
+                </a> Scholar, an alumni of <a  class = "lonk" href="https://www.prepforprep.org/page" target="_blank">
+                Prep For Prep
+            </a> and a member of the <a  class = "lonk" href="www.cipactlilhs.org" target="_blank">
+                Cipactli Latino Honor Society
+            </a></li>
+            <li>Proud Ecuadorean-American from Queens who procrastinates by reading graphic novels, backpacking and training for half-marathons when its freezing</li>
+            <li>Friend to all schnauzers</li><br>
+            </ul>
+
+          </a>
     </div>
   </section>
 
@@ -353,137 +282,8 @@ jonathanravila.com
         </div>
         <div class="col-lg-1"></div>
       </div>
-  </section>
 
-
-<!--  <section id="extracurriculars">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto div-section-title">
-          <h2>Extracurriculars</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div id="div-projects-text" class="col-lg-6">
-
-          <h4>
-            <a href="https://fling.seas.upenn.edu/~shpe/dynamic/wordpress/" target="_blank">
-                Society of Hispanic Professional Engineers
-            </a>
-          </h4>
-          <p>Description<br>
-          <b>Description</b>: Description<br></p>
-
-          <h4>
-            <a href="https://phiphiclub.2stayconnected.com/" target="_blank">
-                Alpha Chi Rho
-            </a>
-          </h4>
-          </span>
-          <p>Description<br>
-          <b>Description</b>: Description<br></p>
-
-          <h4>
-            <a href="http://www.musepenn.org/" target="_blank">
-                Muse Consulting
-            </a>
-          </h4>
-          </span>
-          <p>Description<br>
-          <b>Descrip</b>: Descrip<br><br></p>
-
-
-        </div>
-        <div class="col-lg-1"></div>
-      </div>
-  </section>
-
-
- <section id="organizations">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto div-section-title">
-          <h2>Organizations</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div id="div-projects-text" class="col-lg-6">
-          <h4>
-            <a href="https://www.prepforprep.org/page" target="_blank">
-                Prep For Prep
-            </a>
-        </h4>
-          </span>
-          <p>A highly selective leadership development program that incorporates a rigorous 14-month academic component to prepare students for placement in leading independent schools and continues to work closely with them through high school and beyond<br>
-          <b>Descript</b>: Descript<br></p>
-
-          <h4>
-            <a href="https://www.hsf.net/about-hsf" target="_blank">
-                Hispanic Scholarship Fund
-            </a>
-        </h4>
-          </span>
-          <p>Description<br>
-          <b>Description</b>: Descript<br></p>
-
-          <h4>
-            <a href="www.cipactlilhs.org" target="_blank">
-                Cipactli Latino Honor Society
-            </a>
-        </h4>
-          </span>
-          <p>Description<br>
-          <b>Description</b>: Descript<br></p>
-
-        </div>
-        <div class="col-lg-1"></div>
-      </div>
-  </section>
- -->
-
-
-  <section id = "groups">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-1"></div>
-      <div class="col-lg-1"></div>
-      </div>
-      <div class="row">
-
-        <div class="col-lg-1"></div>
-
-        <div class="col-lg-5">
-          <h2 id= "organizations">Organizations</h2>
-          <h4>
-            <a href="https://www.prepforprep.org/page" target="_blank">
-                Prep For Prep
-            </a>
-            </h4>
-              </span>
-              <p>A highly selective leadership development program that incorporates a rigorous 14-month academic component to prepare students for placement in leading independent schools and continues to work closely with them through high school and beyond<br>
-
-              <h4>
-                <a href="https://www.hsf.net/about-hsf" target="_blank">
-                    Hispanic Scholarship Fund
-                </a>
-            </h4>
-              </span>
-              <p>Tthe Hispanic Scholarship Fund empowers Latino families with the knowledge and resources to successfully complete a higher education, while providing scholarships and support services to as many exceptional Hispanic American students as possible. <br>
-
-              <h4>
-                <a href="www.cipactlilhs.org" target="_blank">
-                    Cipactli Latino Honor Society
-                </a>
-            </h4>
-              </span>
-              <p>The mission and purpose of the Cipactli Latino Honor Society is to acknowledge individual academic achievement, valued leadership, and distinguished service to the Latino community. <br>
-        </div>
-
-
-        <div class="col-lg-5">
-          <h2 id = "extracurriculars">Extracurriculars</h2>
+      <h2 id = "extracurriculars">Extracurriculars</h2>
 
           <h4>
             <a href="https://fling.seas.upenn.edu/~shpe/dynamic/wordpress/" target="_blank">
@@ -511,12 +311,8 @@ jonathanravila.com
           <p><b>Senior Consultant</b> <br>
           Marketing Undergraduate Student Establishment, a chapter of the American Marketing Association<br><br></p>
         </div>
-
-
-        <div class="col-lg-1"></div>
-      </div>
-    </div>
   </section>
+
 
 
   <!-- Footer -->
@@ -532,5 +328,4 @@ jonathanravila.com
     </div>
   </footer>
 </body>
-
 </html>

@@ -1,0 +1,138 @@
+a:link {
+  text-decoration: none;
+  color: 003366 ;
+}
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+a:active {
+  text-decoration: underline;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: 003366;
+}
+
+html {
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   width: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+nav a:hover,
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: #EC407A;
+  }
+
+/** Navigation pane **/
+
+#colorbar {
+  background: radial-gradient(circle farthest-side at center bottom, #ffffff, #3b5998 50%, #003366 120%);
+  position: fixed;
+  top: 0;
+  height: .5rem;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.fixed-top {
+  top: .5rem;
+}
+
+nav {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  background-color: rgba(255,255,255,.95);
+}
+
+.navbar {
+  padding: .5rem 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 400;
+}
+
+.nav-icon a {
+  font-size: 1.25rem;
+  margin: auto .75rem;
+  color: rgba(0,0,0,.6);
+}
+
+a.nav-link js-scroll-trigger {
+  font-size: .9rem;
+  margin: 0 .125rem;
+}
+
+nav a:hover,
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: #EC407A;
+}
+
+
+.navbar-toggler-icon {
+  width: 1.375rem;
+  height: 1.5rem;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+}
+
+
+/*header*/
+
+#head {
+  background-image: url('https://image.ibb.co/eGYjUo/IMG_4825.jpg');
+  /** Pexels: Suket Dedhia **/
+  background-position: 0 35%;
+  padding: 0;
+  /* background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/28516132_1586209504802400_4432278354233318669_o.jpg?oh=e5367f4e579244199bce7bff7b0dc13a&oe=5B11FE18'); */
+  /** Facebook **/
+}
+
+.intro-col {
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+.intro-btn {
+  color: rgba(0,0,0,.7);
+  border-color: rgba(0,0,0,.7);
+}
+.intro-btn:hover {
+  background-color: rgba(0,0,0,.7);
+  color: white;
+}
+.section-img {
+  min-height: calc(25rem + 48px);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    padding: .5rem 2rem;
+  }
+}
+
+
+
+#experience {
+  background-color: #808080;
+}
+#projects {
+  background-color: #808080;
+}
+header {
+  padding: 90px 10 30px 10;
+  background-color: #808080;
+}
