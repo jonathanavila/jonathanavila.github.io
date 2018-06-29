@@ -117,8 +117,10 @@ nav a:hover,
 
 /* experience */
 /*https://preview.ibb.co/e6M92J/DSC09389_2.jpg
+https://s8.postimg.cc/tgn9y9wj9/DSC09389_3.jpg
 */#experience {
-  background-image: url('https://s8.postimg.cc/tgn9y9wj9/DSC09389_3.jpg');
+  background-image: url('https://s8.postimg.cc/4i9ynq105/DSC09364.jpg');
+  background-position: 0 35%;
   padding: 0;
 }
 .modal-body > ul li {
@@ -170,9 +172,10 @@ nav a:hover,
   transition: .25s;
 }
 
-
-#extracurriculars {
-  background-image: url('https://s8.postimg.cc/uixggrpmd/IMG_0772.jpg');
+/*https://s8.postimg.cc/uixggrpmd/IMG_0772.jpg
+*/#extracurriculars {
+  background-image: url('https://s8.postimg.cc/4jjwh4v45/DSC09275.jpg');
+  background-position: 0 35%;
   padding: 0;
 }
 header {
