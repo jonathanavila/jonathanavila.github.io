@@ -32,7 +32,7 @@ nav a:hover,
 /** Navigation pane **/
 
 #colorbar {
-  background: radial-gradient(circle farthest-side at center bottom, #ffffff, #3b5998 50%, #003366 120%);
+  background: radial-gradient(circle farthest-side at center bottom, #ffffff, #456EBE 50%, #456EBE 120%);
   position: fixed;
   top: 0;
   height: .5rem;
@@ -92,11 +92,7 @@ nav a:hover,
 
 #head {
   background-image: url('https://image.ibb.co/eGYjUo/IMG_4825.jpg');
-  /** Pexels: Suket Dedhia **/
-  background-position: 0 35%;
   padding: 0;
-  /* background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/28516132_1586209504802400_4432278354233318669_o.jpg?oh=e5367f4e579244199bce7bff7b0dc13a&oe=5B11FE18'); */
-  /** Facebook **/
 }
 
 .intro-col {
@@ -118,19 +114,66 @@ nav a:hover,
   align-items: center;
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .navbar {
-    padding: .5rem 2rem;
-  }
+
+/* experience */
+/*https://preview.ibb.co/e6M92J/DSC09389_2.jpg
+*/#experience {
+  background-image: url('https://s8.postimg.cc/tgn9y9wj9/DSC09389_3.jpg');
+  padding: 0;
+}
+.modal-body > ul li {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.tab-content {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.tab-pane.active {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.tab-entry {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  background-image: linear-gradient(to right, #575757 10%, transparent 0%);
+  background-position: bottom;
+  background-size: 12px 2px;
+  background-repeat: repeat-x;
+}
+.tab-entry h4 {
+  font-weight: 400;
+}
+.tab-entry h5 {
+  margin-bottom: 1rem;
+}
+.tab-entry a {
+  color: rgba(0,0,0,.75);
+}
+
+.tab-entry img {
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.inactive {
+  opacity: .6;
+}
+.tab-close {
+  position: absolute;
+  margin-top: -2rem;
+  right: 2rem;
+}
+.tab-close:hover {
+  transform: scale(1.25, 1.25);
+  transition: .25s;
 }
 
 
-
-#experience {
-  background-color: #808080;
-}
-#projects {
-  background-color: #808080;
+#extracurriculars {
+  background-image: url('https://s8.postimg.cc/uixggrpmd/IMG_0772.jpg');
+  padding: 0;
 }
 header {
   padding: 90px 10 30px 10;
