@@ -18,6 +18,39 @@ a:visited {
    background-color: #ffffff;
 }
 
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3.25rem;
+}
+h2 {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 2.25rem;
+}
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-bottom: .25rem;
+  font-size: 1.5rem;
+}
+h4 {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+}
+a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;  
+}
+
 html {
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
@@ -25,6 +58,10 @@ html {
    width: 100%;
    overflow-x: hidden;
    overflow-y: scroll;
+}
+
+main {
+  background-color: white;
 }
 
 nav a:hover,
@@ -54,7 +91,12 @@ nav {
   background-color: rgba(255,255,255,.95);
 }
 
-
+.overlay-nav button {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
 .navbar-brand {
   font-family: 'Yantramanav', sans-serif;
   font-weight: 400;
@@ -65,6 +107,15 @@ nav {
   margin: auto .75rem;
   color: rgba(0,0,0,.6);
 }
+
+.btn {
+  padding: .25rem .75rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+
 
 a.nav-link js-scroll-trigger {
   font-size: .9rem;
@@ -173,6 +224,7 @@ https://s8.postimg.cc/tgn9y9wj9/DSC09389_3.jpg
   transition: .25s;
 }
 
+
 /*https://s8.postimg.cc/uixggrpmd/IMG_0772.jpg
 */#extracurriculars {
   background-image: url('https://s8.postimg.cc/4jjwh4v45/DSC09275.jpg');
@@ -183,3 +235,6 @@ header {
   padding: 90px 10 30px 10;
   background-color: #808080;
 }
+
+
+
